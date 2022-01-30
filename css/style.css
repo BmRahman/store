@@ -1,0 +1,422 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url("../images/texture.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: Playfair Display;
+}
+a, a:hover{
+  text-decoration: none;
+}
+
+/*******************************************************************************************************************************************header section code starts here*************************/
+.header{
+  width: 100%;
+  background: #c87e6b;
+}
+.header .bg-light{
+  background-color: #c87e6b !important;
+}
+.header .navbar-light .navbar-nav .nav-link{
+ font-size: 16px;
+ text-transform: uppercase;
+ font-family: playfair display;
+ color: #ffff !important;
+ font-weight: 500;
+ transition: 1s;
+}
+.header .navbar-light .navbar-nav .nav-item .btn{
+  font-size: 16px;
+  text-transform: uppercase;
+  font-family: playfair display;
+  color: #ffff !important;
+  font-weight: 500;
+  border: 1px solid #ffff;
+  border-radius: 20px;
+  transition: 1s;
+}
+.header .navbar-light .navbar-nav .nav-item{
+  margin-left: 25px;
+}
+.header .navbar-light .navbar-nav .nav-link:hover{
+  font-size: 20px;
+}
+.header .navbar-light .navbar-nav .nav-item .btn:hover{
+  background: black;
+  border: 1px solid black;
+}
+/*******************************************************************************************************************************************header section code ends here*************************/
+
+/*******************************************************************************************************************************************banner section code starts here*************************/
+.ban-im img{
+ width: 100%;
+ height: 800px;
+}
+.ban-text{
+  padding-top: 100px;
+}
+.ban-text .rm{
+  text-align: right;
+  margin-right: 200px;
+}
+.ban-text .content{
+  text-align: center;
+}
+.content h2{
+  font-size: 60px;
+  line-height: 70px;
+  color: #484a4b;
+}
+.content h5{
+  margin-top: 15px;
+  font-size: 25px;
+  color: #6b502c;
+  font-weight: 600;
+}
+.content p{
+  margin-top: 15px;
+  font-size: 18px;
+  color: #6b502c;
+  font-family: Montserrat Alternates;
+}
+.ban-text ul li{
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+.ban-text .btn{
+  padding: 15px 25px;
+  font-family: Montserrat Alternates;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #484a4b;
+  border-radius: 20px;
+  transition: 1s;
+}
+.ban-text .btn:hover{
+  background: #484a4b;
+  color: #ffff;
+}
+.ban-text .lm{
+  text-align: left;
+}
+.banner .p1{
+  padding-right: calc(var(--bs-gutter-x) *);
+  padding-left: calc(var(--bs-gutter-x) *);
+}
+.banner .p2{
+  padding-right: calc(var(--bs-gutter-x) *);
+  padding-left: calc(var(--bs-gutter-x) *);
+}
+/*******************************************************************************************************************************************banner section code ends here*************************/
+
+/*******************************************************************************************************************************************count section code starts here*************************/
+.number-counter{
+  padding: 80px 0px;
+  width: 100%;
+  background: #6b502c;
+  margin-top: -123px;
+}
+.count-number{
+  text-align: center;
+  color: #ffff;
+}
+.count-number h5{
+  text-transform: capitalize;
+}
+/*******************************************************************************************************************************************count section code ends here*************************/
+
+/*******************************************************************************************************************************************product section code starts here*************************/
+.product{
+  padding: 80px 0px;
+}
+.product .tim1{
+  text-align: center;
+}
+.product .tim2{
+  text-align: center;
+}
+.product .title{
+  text-align: center;
+}
+.title h2{
+  font-size: 40px;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #484a4b;
+}
+.title h5{
+  font-size: 21px;
+  font-weight: 600;
+  color: #6b502c;
+}
+/*******************************************************************************************************************************************product section code ends here*************************/
+
+/*******************************************************************************************************************************************slider section code starts here*************************/
+.slider{
+  padding-bottom: 80px;
+}
+.item{
+  padding-bottom: 10px;
+}
+.inner-content{
+  background: #e6e3da;
+  border: 1px solid #888888;
+  box-shadow: 5px 5px 5px #888888;
+  padding-bottom: 15px;
+}
+.inner-content .icon{
+  text-align: right;
+}
+.inner-content .icon i{
+  color: #c87e6b;
+  margin: 15px 15px;
+}
+.inner-content h3{
+  text-align: center;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.inner-content p{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  margin-left: 60px;
+  font-size: 14px;
+}
+.inner-content .btn{
+  padding: 5px 17px;
+  margin-left: 55px;
+  background: #484a4b;
+  border-radius: 20px;
+  font-size: 12px;
+  color: #ffff;
+  text-transform: capitalize;
+  transition: 1s;
+}
+.inner-content .btn:hover{
+  background: #674d2a;
+  color: #ffff;
+}
+.owl-nav{
+  margin-left: 618px;
+  margin-top: 30px;
+  font-size: 40px;
+}
+.owl-carousel .owl-nav .owl-next{
+  margin-left: 20px;
+}
+.owl-carousel .owl-nav .owl-prev{
+ margin-right: 20px;
+}
+/*******************************************************************************************************************************************slider section code ends here*************************/
+
+/*******************************************************************************************************************************************video section code starts here*************************/
+.video{
+  width: 100%;
+  padding: 0px 0px 80px;
+}
+.video .title{
+  text-align: center;
+}
+.video .title h2{
+  font-size: 48px;
+}
+.video .vcl{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.vid{
+  width: 100%;
+  height: 1200px;
+  background-image: url("../images/g4.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.vid video{
+  margin-top: 235px;
+  width: 1300px;
+}
+/*******************************************************************************************************************************************video section code ends here*************************/
+
+/*******************************************************************************************************************************************offer section code starts here*************************/
+.offer{
+  width: 100%;
+  padding: 80px 0px;
+}
+.off-txt{
+  width: 100%;
+}
+.offer .off-b{
+  background: #dcc47c;
+}
+.offer .off-txt{
+  text-align: center;
+  margin-top: 100px;
+}
+.offer .la{
+  padding-right: calc(var(--bs-gutter-x) *);
+  padding-left: calc(var(--bs-gutter-x) *);
+}
+.lady{
+  width: 100%;
+}
+.lady img{
+  width: 100%;
+}
+/*******************************************************************************************************************************************offer section code ends here*************************/
+
+/*******************************************************************************************************************************************flower section code starts here*************************/
+.flower{
+  width: 100%;
+  padding-bottom: 20px;
+}
+.flower .flower-im{
+  text-align: center;
+}
+.flo-txt{
+  margin-top: 110px;
+  margin-left: 100px;
+}
+.flo-txt h1{
+  font-size: 66px;
+  line-height: 76px;
+  color: #484a4b;
+  margin-top: 20px;
+}
+.flo-txt p{
+  font-size: 22px;
+  color: #765a33;
+  font-family: Montserrat Alternates;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.flo-txt .btn{
+  padding: 5px 25px;
+  border-radius: 30px;
+  background: #484a4b;
+  color: #ffff;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 20px;
+  transition: 1s;
+}
+.flo-txt .btn:hover{
+  color: #ffff;
+  background: #765a33;
+  border: 1px solid #765a33;
+}
+.flower .side{
+  padding-right: calc(var(--bs-gutter-x) *);
+  padding-left: calc(var(--bs-gutter-x) *);
+}
+.side-im{
+  text-align: right;
+  margin-top: -70px;
+}
+/*******************************************************************************************************************************************flower section code ends here*************************/
+
+/*******************************************************************************************************************************************details section code starts here*************************/
+.details{
+  width: 100%;
+  padding-bottom: 20px;
+}
+.details .two{
+  margin-left: 200px;
+}
+.details .side{
+  padding-right: calc(var(--bs-gutter-x) *);
+  padding-left: calc(var(--bs-gutter-x) *);
+}
+.details .tw{
+  text-align: left;
+  margin-top: -70px;
+}
+/*******************************************************************************************************************************************details section code ends here*************************/
+
+/*******************************************************************************************************************************subscribe section code starts here*************************/
+.subscribe{
+  width: 100%;
+  padding-bottom: 80px;
+}
+.subscribe .in-text{
+  text-align: center;
+}
+.in-text .form-control{
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid #eee;
+}
+.in-text h1{
+  font-size: 50px;
+  color: #484a4b;
+  font-weight: 600;
+}
+.in-text p{
+  font-size: 20px;
+  font-family: 'Montserrat Alternates';
+  margin-top: 20px;
+  color: #484a4b;
+  margin-bottom: 30px;
+}
+.in-text .btn{
+  padding: 10px 25px;
+  border-radius: 30px;
+  background: #c87e6b;
+  color: #ffff;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 40px;
+  transition: 1s;
+}
+.in-text .btn:hover{
+  background: #484a4b;
+  border: 1px solid #484a4b;
+  color: #ffff;
+}
+.in-text .form-control:focus{
+  box-shadow: none;
+  border: 1px solid #eee;
+}
+/*******************************************************************************************************************************subscribe section code ends here*************************/
+
+/*******************************************************************************************************************************footer section code starts here*************************/
+.footer{
+  width: 100%;
+  padding: 80px 0px 0px;
+  background: #424242;
+}
+.foot-list{
+  text-align: center;
+}
+.foot-list h4{
+  text-align: center;
+  font-size: 30px;
+  margin-left: 36px;
+  text-transform: capitalize;
+  color: #ffff;
+  margin-bottom: 30px;
+}
+.foot-list ul li{
+  list-style-type: none;
+  margin-bottom: 5px;
+  font-family: Montserrat Alternates;
+  color: #ffff;
+}
+.footer p{
+  text-align: center;
+  padding-bottom: 17px;
+  margin-left: 48px;
+  margin-top: 40px;
+
+}
+/*******************************************************************************************************************************footer section code ends here*************************/

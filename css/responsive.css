@@ -1,0 +1,377 @@
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px){
+.header .navbar-light .navbar-nav .nav-item .btn{
+  margin-left: -8px;
+  margin-top: 5px;
+}
+.ban-text{
+  padding-top: 40px;
+}
+.content h2 {
+  font-size: 43px;
+  line-height: 53px;
+  color: #484a4b;
+}
+.content h5{
+  font-size: 22px;
+}
+.content p{
+  font-size: 13px;
+}
+.ban-im img{
+  height: 300px;
+}
+.number-counter{
+  padding: 40px 0px;
+  margin-top: 0px;
+}
+.owl-nav{
+  margin-left: 118px;
+}
+.slider{
+  padding-bottom: 40px;
+}
+.video .title h2{
+  font-size: 36px;
+}
+.title h5{
+  font-size: 18px;
+}
+.vid{
+  height: 300px;
+}
+.vid video {
+  margin-top: 66px;
+  width: 300px;
+}
+.video{
+  padding-bottom: 0px;
+}
+.offer{
+  padding: 40px 0px;
+}
+.lady{
+  margin-top: 45px;
+}
+.flo-txt {
+  margin-top: 60px;
+  margin-left: 10px;
+}
+.details .two{
+  margin-left: 0px;
+}
+.flo-txt h1{
+  font-size: 36px;
+  line-height: 46px;
+}
+.flo-txt p{
+  font-size: 14px;
+}
+.details .tw{
+  margin-top: 22px;
+}
+.flower-im{
+  margin-top: 30px;
+}
+.side-im{
+  margin-top: 22px;
+}
+.in-text h1{
+  font-size: 36px;
+}
+.in-text p{
+  font-size: 13px;
+}
+.foot-list h4{
+  font-size: 24px;
+  margin-left: 11px;
+}
+.foot-list ul{
+  margin-left: -20px;
+}
+.foot-list ul li{
+  font-size: 12px;
+}
+.footer p{
+  margin-left: 9px;
+  font-size: 12px;
+}
+}
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px){
+.header .navbar-light .navbar-nav .nav-item .btn{
+  margin-left: -8px;
+  margin-top: 5px;
+}
+.ban-text{
+  padding-top: 40px;
+}
+.content h2{
+  font-size: 60px;
+  line-height: 70px;
+}
+.content h5{
+  font-size: 28px;
+}
+.ban-im img{
+  height: 400px;
+}
+.number-counter{
+  padding: 40px 0px;
+  margin-top: 0px;
+}
+.count-number{
+  margin-bottom: 20px;
+}
+.product{
+  padding: 40px 0px;
+}
+.title h2{
+  font-size: 46px;
+}
+.title h5{
+  font-size: 19px;
+}
+.inner-content h3{
+  font-size: 36px;
+}
+.inner-content p{
+  margin-left: 113px;
+  font-size: 16px;
+}
+.inner-content .btn{
+  margin-left: 111px;
+}
+.owl-nav{
+  margin-left: 200px;
+}
+.slider{
+  padding-bottom: 40px;
+}
+.vid{
+  height: 400px;
+}
+.vid video {
+  margin-top: 81px;
+  width: 430px;
+}
+.video{
+  padding: 0px;
+}
+.lady img{
+  margin-top: 60px;
+}
+.flo-txt h1{
+  font-size: 60px;
+  line-height: 70px;
+}
+.flo-txt {
+  margin-top: 110px;
+  margin-left: 50px;
+}
+.side-im{
+  margin-top: 0px;
+}
+.details .two{
+  margin-left: 0px;
+}
+.flower-im{
+  margin-top: 50px;
+}
+.details .tw{
+  margin-top: 0px;
+}
+.in-text h1{
+  font-size: 46px;
+  line-height: 56px;
+}
+.in-text p{
+  font-size: 18px;
+}
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+.header .navbar-light .navbar-nav .nav-link{
+  font-size: 20px;
+}
+.header .navbar-light .navbar-nav .nav-item .btn{
+  font-size: 20px;
+  margin-left: -8px;
+  margin-top: 5px;
+}
+.content h2 {
+  font-size: 75px;
+  line-height: 85px;
+  color: #484a4b;
+}
+.content h5{
+  font-size: 32px;
+}
+.content p{
+  font-size: 21px;
+}
+.ban-text .btn{
+  font-size: 17px;
+}
+.ban-im img{
+  height: 600px;
+}
+.number-counter{
+  margin-top: 0px;
+}
+.fb{
+  font-size: 50px;
+}
+.bouq{
+  font-size: 50px;
+}
+.client{
+  font-size: 50px;
+}
+.years{
+  font-size: 50px;
+}
+.count-number h5{
+  font-size: 30px;
+}
+.count-number{
+  margin-bottom: 30px;
+}
+.title h2{
+  font-size: 60px;
+}
+.title h5{
+  font-size: 26px;
+}
+.inner-content h3{
+  font-size: 42px;
+}
+.inner-content p{
+  margin-left: 210px;
+  font-size: 19px;
+}
+.inner-content .btn{
+  margin-left: 208px;
+  font-size: 16px;
+}
+.owl-nav {
+  margin-left: 320px;
+  margin-top: 30px;
+  font-size: 45px;
+}
+.video .title h2{
+  font-size: 70px;
+}
+.title h5{
+  font-size: 24px;
+}
+.video{
+  padding: 0px;
+}
+.vid{
+  height: 700px;
+}
+.vid video {
+  margin-top: 150px;
+  width: 700px;
+}
+.lady img{
+  margin-top: 80px;
+}
+.side-im{
+  margin-top: 0px;
+}
+.flo-txt{
+  margin-left: 147px;
+}
+.flo-txt h1{
+  font-size: 78px;
+  line-height: 88px;
+}
+.flo-txt p{
+  font-size: 24px;
+}
+.flo-txt .btn{
+  font-size: 16px;
+}
+.details .two{
+  margin-left: 147px;
+}
+.flower-im{
+  margin-top: 80px;
+}
+.details .tw{
+  margin-top: 0px;
+}
+.in-text h1{
+  font-size: 66px;
+}
+.in-text p{
+  font-size: 18px;
+  line-height: 28px;
+}
+.in-text .btn{
+  font-size: 15px;
+}
+.foot-list h4{
+  font-size: 37px;
+}
+.foot-list ul li{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+}
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px){
+.owl-nav{
+  margin-left: 439px;
+}
+.video .title h2{
+  font-size: 57px;
+}
+.inner-content p{
+  margin-left: 15px;
+}
+.vid{
+  height: 800px;
+}
+.vid video {
+  margin-top: 155px;
+  width: 850px;
+}
+.off-txt img{
+  margin-top: -62px;
+}
+.flo-txt{
+  margin-top: 0px;
+  margin-left: 30px;
+}
+.side-im{
+  margin-top: -30px;
+}
+.details .two{
+  margin-left: 0px;
+}
+.details .tw{
+  margin-top: 20px;
+}
+}
